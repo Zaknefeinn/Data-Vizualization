@@ -76,7 +76,7 @@ export default class GrossProduct extends Component {
     return (
       <div>
         <h1>US Gross Domestic Product</h1>
-        <svg width="1500" height="1000" className="GrossProductContainer" />
+        <svg width="1500" height="700" className="GrossProductContainer" />
         <h4>
           Units: Billions of Dollars <br />
           Seasonal Adjustment: Seasonally Adjusted Annual Rate <br />

@@ -88,7 +88,7 @@ export default class ScatterPlot extends Component {
     return (
       <div>
         <h1>Doping in Professional Bicycle Racing</h1>
-        <svg className="ScatterPlotContainer" width="1500" height="1000" />
+        <svg className="ScatterPlotContainer" width="1500" height="700" />
         <div className="ScatterPlotTooltip" />
       </div>
     );

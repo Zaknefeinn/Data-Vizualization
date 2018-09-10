@@ -98,7 +98,7 @@ export default class ForceDirectedGraph extends Component {
           <svg
             className="ForceDirectedGraphContainer"
             width="1500"
-            height="1000"
+            height="700"
           />
         </div>
       </div>

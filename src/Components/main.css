@@ -1,8 +1,8 @@
-.images {
+/* .images {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
+} */
 .images img {
   max-height: 200px;
   max-width: 200px;
@@ -98,9 +98,9 @@ h3,
 p {
   text-align: center;
 }
-.ScatterPlotContainer {
+/* .ScatterPlotContainer {
   align: center;
-}
+} */
 
 .ScatterPlotTooltip {
   width: 250px;

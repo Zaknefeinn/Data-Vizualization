@@ -108,8 +108,8 @@ export default class MeteoriteStrike extends Component {
   render() {
     return (
       <div>
-        <h1>World Map</h1>
-        <svg className="MeteoriteStrikeContainer" width="1500" height="1000" />
+        <h1>World Meteor Strike Locations and Sizes</h1>
+        <svg className="MeteoriteStrikeContainer" width="1500" height="700" />
       </div>
     );
   }

@@ -17,7 +17,7 @@ export default class CarouselView extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selected: 'ScatterPlot'
+      selected: 'GlobalSurfaceTemp'
     };
   }
   componentDidUpdate() {
@@ -49,7 +49,6 @@ export default class CarouselView extends Component {
   render() {
     return (
       <div className="hero-container">
-        {this.displayHero()}
         <div className="images">
           <img
             src={MeteoriteStrikeImage}
@@ -77,6 +76,7 @@ export default class CarouselView extends Component {
             onClick={() => this.setState({ selected: 'ScatterPlot' })}
           />
         </div>
+        {this.displayHero()}
       </div>
     );
   }

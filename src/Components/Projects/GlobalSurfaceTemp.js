@@ -124,11 +124,7 @@ export default class GlobalSurfaceTemp extends Component {
     return (
       <div>
         <h1>Monthly Global Land-Surface Temperature</h1>
-        <svg
-          className="GlobalSurfaceTempContainer"
-          width="1500"
-          height="1000"
-        />
+        <svg className="GlobalSurfaceTempContainer" width="1500" height="700" />
       </div>
     );
   }
